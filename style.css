@@ -487,3 +487,169 @@
 .cards_1:hover > .addtocart {
   transform: translateY(0px);
 }
+
+/* Responsive design */
+
+@media only screen and (max-width: 1224px){
+  .addtocart{
+    width: max-content;
+  }
+
+  .search_icon{
+        transform: translate(4rem, -4rem);
+  }
+}
+
+@media only screen and (max-width: 1086px){
+  .addtocart{
+    width: max-content;
+    padding-inline: 5px;
+  }
+
+  .cards_1{
+    width: 150px;
+    height: 300px;
+  }
+
+  .cards{
+    height: 300px;
+  }
+
+  .contour{
+    width: 140px;
+  }
+
+  .footer_first > logo {
+    margin: 10px;
+  }
+
+  .p1{
+    font-size: 15px;
+  }
+
+  .need_help > div > p{
+    font-size: 18px;
+  }
+
+  .footer_second > ul{
+    font-size: 12px;
+  }
+  .footer_third > ul{
+    font-size: 12px;
+  }
+
+  .footer_second > h2{
+    font-size: 20px;
+  }
+  .footer_third > h2{
+    font-size: 20px;
+  }
+  .footer_fourth > h2{
+    font-size: 20px;
+  }
+  .footer_fourth > p{
+    font-size: 15px;
+  }
+  .search_icon_1{
+        transform: translate(3rem, -4rem);
+  }
+} 
+
+@media only screen and (max-width: 1058px){
+  .brands{
+    padding-inline: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #hot_deals{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #nav{
+    display: none;
+  }
+
+  #search_bar{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 832px){
+  .lb_body{
+    flex-direction: column;
+  }
+
+  .card_section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+    .cards_1{
+      display: flex;
+    justify-content: center;
+  }
+
+  #main{
+    display: none;
+  }
+
+  .hero_section{
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 764px){
+  #second{
+    font-size: 30px;
+  }
+
+  #first{
+    font-size: 15px;
+  }
+
+  .hero_section{
+    height: 350px;
+  }
+
+  .need_help{
+    display: none;
+  }
+
+  .footer_second{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 560px){
+  .last_img{
+    display: none;
+  }
+
+  #hot_deals{
+    display: none;
+  }
+
+  .cards{
+    display: none;
+  }
+
+   #second{
+    font-size: 20px;
+  }
+
+  #first{
+    font-size: 10px;
+  }
+
+  .hero_section{
+    height: 300px;
+  }
+
+  #button{
+    font-size: 8px;
+  }
+}
